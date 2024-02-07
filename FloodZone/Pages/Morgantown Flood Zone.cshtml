@@ -1,0 +1,43 @@
+﻿@page
+@model FloodZone.Pages.Morgantown_Flood_ZoneModel
+@{
+}
+<h1>Morgantown Flood Zone</h1>
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+            
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <div id="map" style="height: 400px;"></div>
+    <script src="script.js"></script>
+    <h2>Map Key</h2>
+    <table style="border:ridge 10px">
+        <thead>
+        <tr>
+            <td>Color</td>
+            <td>Severity</td>
+        </tr>
+        </thead>
+        <tr>
+            <td>Red</td>
+            <td>Severe</td>
+        </tr>
+        <tr>
+            <td>Blue</td>
+            <td>Moderate</td>
+            </tr>
+            <tr>
+            <td>Grey</td>
+            <td>Low</td>
+        </tr>
+     
+    </table>
+</body>
+
+
